@@ -1,3 +1,5 @@
+##### A python script to download data from OpenWeatherMap and show live data using Matplotlib.
+
 import time
 import requests
 from pprint import pprint
@@ -46,5 +48,5 @@ while True:
     
     #print(tijd, temperature)
     #plt.plot(tijd, temperature)
-    time.sleep(3) #get new data every x seconds
+    time.sleep(60) #get new data every minute seconds
     i += 1
