@@ -10,7 +10,7 @@ from datetime import datetime
 plt.rcParams['animation.html'] ='jshtml'
 
 settings = {
-    'api_key':"ac37f4337bdc07b0642d027ee1313660",
+    'api_key':"", #get your own API key!
     'city':'Amsterdam',
     'temp_unit':'metric'} #unit can be metric, imperial, or kelvin
 
